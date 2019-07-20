@@ -1,0 +1,185 @@
+
+
+
+body{
+  background-color: #F2F0F0
+}
+
+.navigation {
+  background-color: white;
+}
+
+
+/*Media queries*/
+@media(max-width:768px) {
+  .navbar-expand-lg {
+    background-color: #fff;
+  }
+}
+
+/*Landing chart*/
+.left_box {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 0px;
+  margin-left: 0px;
+  align-content: center;
+  position: relative;
+  }
+
+  /*Format for landing chart*/
+#left_box_img {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px
+}
+
+/*4 Format for Individual weather charts*/
+#leftbox_img_all {
+  width:auto;
+  height:auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+/*Landing-btn*/
+#landing-btn {
+  font-weight: bold;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background:  #32d5e0
+}
+
+#landing-btn:hover {
+  opacity:0.7;
+}
+
+
+/*Titles*/
+.title {
+  font-weight: bold;
+  color:#32d5e0
+}
+
+/*Comparison and data charts*/
+.chart_box {
+  background: white;
+}
+
+/*Comparison and data charts*/
+.chart_title {
+  text-align:center;
+  color:#32d5e0
+}
+
+
+/* The next few css format link to individual weather pages*/ 
+.right_box{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 0px;
+  margin-left: 0px;
+  align-content: center;
+  position: relative;
+  background: white;
+}
+   
+.right_box_img{
+  position: relative;
+  height: 350px;
+  width: 320px;
+  align-content: center;
+}
+
+#right_img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 160px;
+  width: 160px;
+}
+#right_img1:hover {
+  border: 5px solid #32d5e0;
+}
+
+
+#right_img2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 160px;
+  width: 160px;
+}
+
+#right_img2:hover {
+  border: 5px solid #32d5e0;
+  }
+
+#right_img3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 160px;
+  width: 160px;
+}
+#right_img3:hover {
+  border: 5px solid #32d5e0;
+}
+
+#right_img4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 160px;
+  width: 160px;
+}
+
+#right_img4:hover {
+  border: 5px solid #32d5e0;
+}
+/* End formating of links to individual weather pages*/
+
+/*The next few css are formats for the comparison chart*/
+#right_comp_img1 {
+  width:auto;
+  height:auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#right_comp_img2 {
+  width:auto;
+  height:auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#right_comp_img3 {
+  width:auto;
+  height:auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#right_comp_img4 {
+  width:auto;
+  height:auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+/*End of formating of comparison charts*/
